@@ -1,5 +1,7 @@
 ## Command Line code:
-
+$ roscore
+$ rosrun turtle_sim turtlesim_node
+$ rosrun pkg_name file_name (or node name )
 
 
 
