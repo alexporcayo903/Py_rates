@@ -79,11 +79,12 @@ third tab:  open the new tab in the terminal, run turtlesim maze node
 
 
 ```bash
+cd ~/catkin_ws/src/my_pkg/
 rosrun my_pkg turtlesim_maze_node.py
 ```
 
-There are two seed file maze1.txt and maze2.txt in the folder " app_prog_prohject ". To run 
-different maze go inside turtlesim_maze_node.py and edit line 
+There are two seed file maze1.txt and maze2.txt in the folder " app_prog_project ". To run 
+different maze go inside turtlesim_maze_node.py and edit line 287
 
 
   
