@@ -32,12 +32,13 @@ gazebo stuff
 
 Follw the instruction in the wiki to get started coding with ros: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment.
 
-### How to seed the maze with a text file:
-1)
+### How to seed the maze:
+1)make a text file with 
 
-2)
+2)open that text file 
 
-3)
+3)change lines of code
+
 ### How to use gazebo and turtlebot3:
 1)
 
