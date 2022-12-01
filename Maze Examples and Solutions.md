@@ -1,3 +1,1 @@
-![Maze](/images/maze_example.png "title-1") ![Maze](/images/maze_path_example.png "title-2")
-
-![Maze](/images/turtlesim1.png)
+<img src = "/images/maze_example.png" width ="230" /> <img src = "/images/maze_path_example.png" width ="250" /> <img src = "/images/turtlesim1.png" width ="210" />
