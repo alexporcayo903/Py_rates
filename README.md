@@ -43,14 +43,23 @@ gazebo stuff
 
 
 ### How to seed the maze with a text file:
+1)
 
+2)
 
+3)
 ### How to use gazebo and turtlebot3:
+1)
 
+2)
 
+3)
 ### How to use maze to gazebo:
+1)
 
+2)
 
+3)
 ## Notes
 
 If you have trouble installing pygame on linux Pygame this code can still function by giving the function points as shown in "Turtlesim Without Pygame".
