@@ -30,7 +30,58 @@ gazebo stuff
 
 ### How to set up a ros file (After Installation): 
 
-Follw the instruction in the wiki to get started coding with ros: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment.
+1. Follw the instruction in the wiki to get started coding with ros: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment. This also shows how to create a catkin workspace.
+
+2. After creating the catkin workspace, please download the " app_prog_project " folder. This folder contains all the 
+nodes that we created to run our simulation. Please run the command below to create the packadge. 
+
+
+3. Go to your catinkin work space and create a packadge 
+
+
+```bash
+cd ~/catkin_ws/src
+catkin_create_pkg my_pkg rospy std_msgs
+cd ..
+catkin_make
+```
+
+4. From the downloaded " app_prog_project" folder copy  the contentes listed below and put it inside the my_pkg folder
+      maze1.txt
+      maze2.txt
+      maze_fixed.py
+      turtlesim_maze_node.py
+      ourgazebonode.py
+      
+
+
+5. Run the following command in the bash terminal to run the code 
+
+first open new  tab of the terminal, run the roscore
+
+
+```bash
+roscore
+```
+
+second tab : open the new tab in the terminal, run turtlesim node
+
+```bash
+rosrun turtlesim turtlesim_node
+```
+
+third tab:  open the new tab in the terminal, run turtlesim maze node
+
+
+```bash
+rosrun my_pkg turtlesim_maze_node.py
+```
+
+There are two seed file maze1.txt and maze2.txt in the folder " app_prog_prohject ". To run 
+different maze go inside turtlesim_maze_node.py and edit line 
+
+
+  
 ### How to save and run source folder in ros:
 1)
 
