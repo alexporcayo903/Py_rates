@@ -28,7 +28,7 @@ gazebo stuff
 
 ## How To Use
 
-### how to set up a ros file: 
+### How to set up a ros file: 
 
 
 1) make catkin
@@ -42,13 +42,13 @@ gazebo stuff
 5) activate file 
 
 
-how to seed the maze with a text file:
+### How to seed the maze with a text file:
 
 
-how to use gazebo and turtlebot3:
+### How to use gazebo and turtlebot3:
 
 
-how to use maze to gazebo:
+### How to use maze to gazebo:
 
 
 ## Notes
