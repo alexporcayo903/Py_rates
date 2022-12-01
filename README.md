@@ -11,7 +11,7 @@ One of the virtual machines we used to run Ubuntu 20.04 was virtual box. This vi
 
 ### Ros1
 
-The best way to install Ros1 is to follow their wiki: http://wiki.ros.org/ROS/Installation.
+Ros1 is the main package we use in this project. By dowlading this package you can use both Turtlesim and Gazebo. The best way to install Ros1 is to follow their wiki: http://wiki.ros.org/ROS/Installation.
 ### Maze Generator/Pygame
 
 Stared from the [baseline maze code]( https://github.com/tonypdavis/PythonMazeGenerator) found in Github and credited to Davis MT. With modifications to intergrate with our project, the Maze Generator will be the first Python file to be called. The needed modules are : pygame, time , and random        
