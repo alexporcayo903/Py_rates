@@ -97,13 +97,21 @@ To save the list, start with a empty list and append the directions from the `ca
 
 
 ```python
+....
 if len(cell) > 0:                                                  # check to see if cell list is empty
            
             cell_chosen = (random.choice(cell))                    # select one of the cell randomly
             CELL_ORDER.append(cell_chosen)
-
+....
 ```
+Then the list is saved into text file
 
+```python
+with open('maze_saved.txt', 'w+') as f: 
+    for items in CELL_ORDER:
+
+        f.write('%s\n' %items)   
+```
 2) open that text file 
 
 3) change lines of code
