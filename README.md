@@ -45,11 +45,17 @@ cd ..
 catkin_make
 ```
 
-4. From the downloaded " app_prog_project" folder copy  the contentes listed below and put it inside the my_pkg folder
+4. From the downloaded " app_prog_project" folder copy  the contents listed below and put it inside the my_pkg folder
+
+
       maze1.txt
+      
       maze2.txt
+      
       maze_fixed.py
+      
       turtlesim_maze_node.py
+      
       ourgazebonode.py
       
 
