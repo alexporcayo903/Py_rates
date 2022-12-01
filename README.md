@@ -58,5 +58,5 @@ Follw the instruction in the wiki to get started coding with ros: http://wiki.ro
 3)
 ## Notes
 
-All of the mazes in the files above are seeded except for "Graphing Points". These files will work with ot without a seed, we used a seed so the files will line up with the examples. If you have trouble installing pygame on linux Pygame this code can still function by giving the function points as shown in "Turtlesim Without Pygame".
+All of the mazes in the files above are seeded except for "Graphing Points". These files will work with ot without a seed, we used a seed so the files will line up with the examples. If you have trouble installing pygame on linux this code can still function by giving the function points as shown in "Turtlesim Without Pygame".
 
