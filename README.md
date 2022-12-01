@@ -35,7 +35,7 @@ gazebo stuff
 2. After creating the catkin workspace, please download the " app_prog_project " folder from our github. This folder contains all the nodes that we created to run our simulation. Please run the command below to create the packadge. 
 
 
-3. Go to your catinkin work space and create a packadge 
+3. Go to your catinkin work space source folder and create a packadge 
 
 
 ```bash
