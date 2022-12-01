@@ -21,7 +21,7 @@ import random
 A=[]
 B=[]
 
-with open('maze4.txt') as f:
+with open('maze1.txt') as f: # Here is where the maze file is taken
     CELL = f.read().splitlines()
 
 # set up pygame window
