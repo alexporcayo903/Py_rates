@@ -32,7 +32,7 @@ gazebo stuff
 1) make a catkin workspace
 
 ```bash
-mkdir -p /catkin_ws/src
+mkdir -p ~/catkin_ws/src
 
 ```
 
