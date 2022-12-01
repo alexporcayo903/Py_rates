@@ -29,9 +29,9 @@ gazebo stuff
 ## How To Use
 
 ### How to set up a ros file: 
-1) make catkin
+1) make a catkin workspace
 
-2) make source file
+2) make make a source file directory
 
 3) make package 
 
@@ -40,7 +40,10 @@ gazebo stuff
 5) activate file 
 ### How to seed the maze with a text file:
 1)
-
+'''bash
+jfhgojkfd
+kldfgodf
+'''
 2)
 
 3)
