@@ -7,7 +7,17 @@ To have a simulated robot to solve a maze and convert the solution into a path t
 
 ## Installation
 
+py-gmae stuff
+ros stuff
+gazebo stuff
+
+
 ## How To Use
+
+how to set up a ros file 
+how to seed a maze
+how to use gazebo
+
 
 ## Notes
 
