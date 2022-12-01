@@ -28,22 +28,12 @@ gazebo stuff
 
 ## How To Use
 
-### How to set up a ros file: 
-1) make a catkin workspace
+### How to set up a ros file (After Installation): 
 
-```bash
-mkdir -p ~/catkin_ws/src
+Follw the instruction in the wiki 
 
-```
+(http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
 
-
-2) make make a source file directory
-
-3) make package 
-
-4) make file
-
-5) activate file 
 ### How to seed the maze with a text file:
 1)
 
@@ -64,5 +54,5 @@ mkdir -p ~/catkin_ws/src
 3)
 ## Notes
 
-For all of out maze code but the point graphs we have seeded the maze so that the resulkt will be exact each time. If you would like to have a random maze every time just follow the instructions. If you have trouble installing pygame on linux Pygame this code can still function by giving the function points as shown in "Turtlesim Without Pygame".
+If you have trouble installing pygame on linux Pygame this code can still function by giving the function points as shown in "Turtlesim Without Pygame".
 
