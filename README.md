@@ -30,8 +30,10 @@ gazebo stuff
 
 ### How to set up a ros file: 
 1) make a catkin workspace
+''' bash
+mkdir -p /catkin_ws/src
 
-mkdir catkin_ws
+'''
 
 
 2) make make a source file directory
