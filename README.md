@@ -94,12 +94,7 @@ different maze go inside turtlesim_maze_node.py and edit line 248 " XX=maze_fixe
 
 3) change lines of code
 
-### How to use gazebo and turtlebot3:
-1)
 
-2)
-
-3)
 ### How to use maze to gazebo:
 
 ## Installation ( This was copied from the github link: https://github.com/Adlink-ROS/map2gazebo)
@@ -160,6 +155,13 @@ export GAZEBO_MODEL_PATH=$HOME/map2gz_ros2_ws/src/map2gazebo/models/
 gazebo src/map2gazebo/worlds/map.sdf
 ```
 
+
+### How to use gazebo and turtlebot3:
+1)
+
+2)
+
+3)
 
 
 ## Notes
