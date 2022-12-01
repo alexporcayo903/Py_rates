@@ -31,12 +31,16 @@ gazebo stuff
 
 ## How To Use
 
-how to set up a ros file \n
-how to seed a maze\n
-how to use gazebo
+how to set up a ros file: 
+
+
+how to seed the maze with a text file:
+
+
+how to use gazebo and turtlebot3
 
 
 ## Notes
 
-if py game does not work this code can still function by giving the function points as shown in "maze solution"
+If pygame does not work this code can still function by giving the function points as shown in "maze solution"
 
