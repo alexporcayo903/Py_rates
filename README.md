@@ -31,7 +31,7 @@ gazebo stuff
 ### How to set up a ros file (After Installation): 
 
 Follw the instruction in the wiki to get started coding with ros: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment.
-### How to save and run source folder
+### How to save and run source folder in ros:
 1)
 
 2)
