@@ -64,5 +64,5 @@ mkdir -p ~/catkin_ws/src
 3)
 ## Notes
 
-If you have trouble installing pygame on linux Pygame this code can still function by giving the function points as shown in "Turtlesim Without Pygame".
+For all of out maze code but the point graphs we have seeded the maze so that the resulkt will be exact each time. If you would like to have a random maze every time just follow the instructions. If you have trouble installing pygame on linux Pygame this code can still function by giving the function points as shown in "Turtlesim Without Pygame".
 
