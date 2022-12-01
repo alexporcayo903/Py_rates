@@ -97,7 +97,7 @@ different maze go inside turtlesim_maze_node.py and edit line 248 " XX=maze_fixe
 
 ### How to use maze to gazebo:
 
-## Installation ( This was copied from the github link: https://github.com/Adlink-ROS/map2gazebo)
+### Installation ( This was copied from the github link: https://github.com/Adlink-ROS/map2gazebo)
 
 NOTE:
 
@@ -126,7 +126,7 @@ cd ~/map2gz_ros2_ws/src
 git clone https://github.com/Adlink-ROS/map2gazebo.git -b foxy-devel
 ```
 
-## Offline conversion
+### Offline conversion
 
 * Create your map 
 
