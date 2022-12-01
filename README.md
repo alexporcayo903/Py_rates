@@ -8,7 +8,13 @@ To have a simulated robot to solve a maze and convert the solution into a path t
 ## Installation
 
 py-gmae stuff
+
+
+
+
 ros stuff
+
+
 gazebo stuff
 
 
