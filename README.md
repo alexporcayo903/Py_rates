@@ -42,5 +42,5 @@ how to use gazebo and turtlebot3
 
 ## Notes
 
-If pygame does not work this code can still function by giving the function points as shown in "maze solution"
+If pygame does not work this code can still function by giving the function points as shown in "Turtlesim Without Pygame".
 
