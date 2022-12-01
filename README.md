@@ -30,9 +30,7 @@ gazebo stuff
 
 ### How to set up a ros file (After Installation): 
 
-Follw the instruction in the wiki 
-
-(http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)
+Follw the instruction in the wiki to get started coding with ros: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment.
 
 ### How to seed the maze with a text file:
 1)
