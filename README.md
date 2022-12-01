@@ -37,7 +37,10 @@ how to set up a ros file:
 how to seed the maze with a text file:
 
 
-how to use gazebo and turtlebot3
+how to use gazebo and turtlebot3:
+
+
+how to use maze to gazebo:
 
 
 ## Notes
