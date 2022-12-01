@@ -157,11 +157,24 @@ gazebo src/map2gazebo/worlds/map.sdf
 
 
 ### How to use gazebo and turtlebot3:
-1)
+1) follow this link to install turtlebot3 gazebo simulation packadge
 
-2)
+https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 
-3)
+2) Enter the following command in the bash terminal to run the gazebo
+
+```bash
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+```
+
+3) ope a new tab from the terminal 
+
+```bash
+cd ~/catkin_ws/src/my_pkg/
+rosrun my_pkg ourgazebonode.py
+```
+
 
 
 ## Notes
