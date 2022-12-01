@@ -28,7 +28,12 @@ gazebo stuff
 
 ## How To Use
 
-how to set up a ros file: 
+###how to set up a ros file: 
+fisrt make catkin
+second make source file
+third make package 
+fourth make file
+fifth activate file 
 
 
 how to seed the maze with a text file:
