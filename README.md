@@ -8,7 +8,7 @@ To have a simulated robot to solve a maze and convert the solution into a path t
 ## Installation
 ### Ros1
 
-How to install Ros1: http://wiki.ros.org/ROS/Installation
+The best way to install Ros1 is to follow their wiki: http://wiki.ros.org/ROS/Installation.
 ### Maze Generator/Pygame
 
 Stared from the [baseline maze code]( https://github.com/tonypdavis/PythonMazeGenerator) found in Github and credited to Davis MT. With modifications to intergrate with our project, the Maze Generator will be the first Python file to be called. The needed modules are : pygame, time , and random        
