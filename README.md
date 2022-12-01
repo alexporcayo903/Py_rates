@@ -88,7 +88,21 @@ different maze go inside turtlesim_maze_node.py and edit line 248 " XX=maze_fixe
 
 
 ### How to seed the maze:
-1) make a text file with 
+
+1) To save a specific maze from the Maze Generator, you'll need to save the cell list into a text file. The list contains directions {right,left,up,down} to carve out the grid into a maze. 
+
+
+To save the list, start with a empty list and append the directions from the `carve_out_maze`, for our code the list is in a variable called `CELL_ORDER'
+
+
+
+```python
+if len(cell) > 0:                                                  # check to see if cell list is empty
+           
+            cell_chosen = (random.choice(cell))                    # select one of the cell randomly
+            CELL_ORDER.append(cell_chosen)
+
+```
 
 2) open that text file 
 
