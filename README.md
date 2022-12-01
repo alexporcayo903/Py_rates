@@ -27,5 +27,5 @@ how to use gazebo
 
 ## Notes
 
-
+if py game does not work this code can still function by giving the function points as shown in "maze solution"
 
