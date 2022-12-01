@@ -14,8 +14,8 @@ gazebo stuff
 
 ## How To Use
 
-how to set up a ros file 
-how to seed a maze
+how to set up a ros file \n
+how to seed a maze\n
 how to use gazebo
 
 
