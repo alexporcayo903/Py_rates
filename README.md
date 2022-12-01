@@ -84,7 +84,7 @@ rosrun my_pkg turtlesim_maze_node.py
 ```
 
 There are two seed file maze1.txt and maze2.txt in the folder " app_prog_project ". To run 
-different maze go inside turtlesim_maze_node.py and edit line 287
+different maze go inside turtlesim_maze_node.py and edit line 248 " XX=maze_fixed.mazf('maze2.txt') "
 
 
   
