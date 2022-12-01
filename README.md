@@ -28,7 +28,7 @@ gazebo stuff
 
 ## How To Use
 
-### How to set up a ros file (After Installation): 
+### How to set up a ros packadge and run our node (After Installation): 
 
 1. Follw the instruction in the wiki to get started coding with ros: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment. This also shows how to create a catkin workspace.
 
