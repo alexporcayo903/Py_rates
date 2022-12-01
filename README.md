@@ -87,13 +87,6 @@ There are two seed file maze1.txt and maze2.txt in the folder " app_prog_project
 different maze go inside turtlesim_maze_node.py and edit line 248 " XX=maze_fixed.mazf('maze2.txt') "
 
 
-  
-### How to save and run source folder in ros:
-1)
-
-2)
-
-3)
 ### How to seed the maze:
 1) make a text file with 
 
@@ -108,11 +101,66 @@ different maze go inside turtlesim_maze_node.py and edit line 248 " XX=maze_fixe
 
 3)
 ### How to use maze to gazebo:
-1)
 
-2)
+## Installation ( This was copied from the github link: https://github.com/Adlink-ROS/map2gazebo)
 
-3)
+NOTE:
+
+trimesh needs the following soft dependencies to export Collada (.dae) files.
+
+Theoretically you can install these with `pip install trimesh[soft]` but this
+failed for me, so I installed the needed ones myself.
+
+1. Install the python dependencies with pip:
+
+```bash
+pip3 install --user trimesh
+pip3 install --user numpy
+pip3 install --user pycollada
+pip3 install --user scipy
+pip3 install --user networkx
+pip3 install --user opencv-contrib-python 
+
+```
+
+2. Git clone map2gazebo and build package
+
+```bash
+mkdir -p ~/map2gz_ros2_ws/src
+cd ~/map2gz_ros2_ws/src
+git clone https://github.com/Adlink-ROS/map2gazebo.git -b foxy-devel
+```
+
+## Offline conversion
+
+* Create your map 
+
+```bash
+cd ~/map2gz_ros2_ws
+```
+after that download our maze2.png and maze2.yaml from our github and put it in the folder map2gz_ros2_ws
+
+
+* Convert the map to STL model
+  - Note the output directory: Gazebo world will use the model here
+
+```bash
+python3 src/map2gazebo/map2gazebo/map2gazebo_offline.py --map_dir maze2.png --export_dir src/map2gazebo/models/map/meshes
+```
+
+if this does not work then you may have to go inside map2gazebo_offline.py file and replace all pgm to png
+
+* Modify the model file: `src/map2gazebo/models/map/model.sdf`
+  - Replace `map.stl` to `maze2.stl` (or your stl name)
+
+* Run Gazebo
+
+```bash
+export GAZEBO_MODEL_PATH=$HOME/map2gz_ros2_ws/src/map2gazebo/models/
+gazebo src/map2gazebo/worlds/map.sdf
+```
+
+
 
 ## Notes
 
