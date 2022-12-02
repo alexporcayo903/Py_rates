@@ -136,19 +136,34 @@ if len(cell) > 0:                                          # check to see if cel
 3) change lines of code
 
 ### How to run turtle race:
-1) To run two turtles at the same time open up 4 temrminal windows. In these teminals change the current directory to the sorce file directory by:
-
+1) To run two turtles at the same time open up 4 temrminal windows. In the two teminals which will runn the turtles change the current directory to the sorce file directory by:
 
 ```bash
-hello world
+cd catkin_ws/src/
 ```
-2) In the first window start the roscore by:
+2) Then start the roscore by:
 
-3) In the second terminal start the turtlesim node by:
+```bash
+roscore
+```
 
-4) In the third terminal start the first turtle by:
+3) In the next terminal start the turtlesim node by:
+
+```bash
+rosrun turtlesim turtlesim_node
+```
+
+4) In the first terminal you changed the directory in start the first turtle by:
+
+```bash
+rosrun my_package_name my_node.py turtle1
+```
 
 5) In the last terminal start the second turtle by:
+
+```bash
+rosrun my_package_name my_node.py turtle2
+```
 
 Be careful to note the names of the turtles. These names need to be exatly set to run the two turtles at the same time. This works by using a roswait command expecting the exact name specified in the code for the second turtle(or third). This code is designed to run 2-3 turtles at once using given points from the maze generator. These points are hard set in the file due to ros1 timming constraints and our limitations using a virtual machine. 
 
