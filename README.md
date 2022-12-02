@@ -50,6 +50,7 @@ catkin_make
       * maze_fixed.py
       * turtlesim_maze_node.py
       * ourgazebonode.py
+      * turtlesim_without_pygame.py
       
 5. Run the following command in the bash terminal to run the code 
 
