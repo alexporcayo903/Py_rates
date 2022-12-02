@@ -8,7 +8,7 @@
 
 
 ### How to run Turtle Race Video
-For demonstration and recording puposes we shortened the length of the paths. To see the high accuracy final product look in the 
+For demonstration and recording puposes we shortened the length of the paths. To see the high accuracy final product look in the maze examples folder.
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/x6qCkaBSujM/0.jpg)](http://www.youtube.com/watch?v=x6qCkaBSujM)
 
