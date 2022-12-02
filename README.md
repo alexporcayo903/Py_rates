@@ -18,12 +18,9 @@ Stared from the [baseline maze code]( https://github.com/tonypdavis/PythonMazeGe
 
 ### Turtlebot3
 
+1) follow this link to install turtlebot3 gazebo simulation packadge
 
-
-ros stuff
-
-
-gazebo stuff
+https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 
 
 ## How To Use
@@ -191,11 +188,9 @@ gazebo src/map2gazebo/worlds/map.sdf
 
 
 ### How to use gazebo and turtlebot3:
-1) follow this link to install turtlebot3 gazebo simulation packadge
 
-https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 
-2) Enter the following command in the bash terminal to run the gazebo
+1) Enter the following command in the bash terminal to run the gazebo
 
 ```bash
 export TURTLEBOT3_MODEL=burger
