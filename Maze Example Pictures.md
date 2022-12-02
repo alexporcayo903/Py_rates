@@ -20,7 +20,7 @@
 <img src = "/Images/Maze_3_Turtlesim.png" width ="240" /> <img src = "/Images/Maze_3_Path.png" width ="240" />
 
 
-# Synchronous Maze
+# Turtle Race
 <img src = "/Images/Turtlesim_3_Turtles.png" width ="500" />
 
 The final results for this maze at the maximum accuracy resluted in:
