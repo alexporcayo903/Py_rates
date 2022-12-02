@@ -58,6 +58,8 @@ catkin_make
       
       ourgazebonode.py
       
+      turtle_race.py
+      
 
 
 5. Run the following command in the bash terminal to run the code 
