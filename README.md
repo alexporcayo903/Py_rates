@@ -284,7 +284,7 @@ rosrun my_pkg ourgazebonode.py
 ## Notes
 
 * Most of the  mazes in the files above are seeded except for "Graphing Points". These files will work with or without a seed, we used a seed so the files will line up with the examples. The seeded and unseeded versions of the code are found the in the maze generator folder. 
-* If you have trouble installing pygame on linux this code can still function by giving the function points as shown in "    " in the "app_prog_project".
+* If you have trouble installing pygame on linux this code can still function by giving the function points as shown in "turtlesim_without_pygame.py" in the "app_prog_project".
 * There will need to be two seperate pacakges one for the "app_prog_project" and one for "turtlesim_turtlerace".
 * How to run these packages are shown above and we also included videos of the final product which shows how to run these packages if the instructions are not clear enough.
 
