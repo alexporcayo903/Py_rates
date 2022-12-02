@@ -165,7 +165,7 @@ rosrun my_package_name my_node.py turtle1
 rosrun my_package_name my_node.py turtle2
 ```
 
-Be careful to note the names of the turtles. These names need to be exatly set to run the two turtles at the same time. This works by using a roswait command expecting the exact name specified in the code for the second turtle(or third). This code is designed to run 2-3 turtles at once using given points from the maze generator. These points are hard set in the file due to ros1 timming constraints and our limitations using a virtual machine. 
+After you start the second turtle there will be a two second delay from rospy.sleep(2). Be careful to note the names of the turtles. These names need to be exatly set to run the two turtles at the same time. If you would like to change the turtle names you can go to everywhere that each turtle is named and change it to the desired name. The names of your package and node can be whatever you choose. This works by using a roswait command expecting the exact name specified in the code for the second turtle(or third). This code is designed to run 2-3 turtles at once using given points from the maze generator. These points are hard set in the file due to ros1 timming constraints and our limitations using a virtual machine. 
 
 ### How to use map to gazebo:
 
