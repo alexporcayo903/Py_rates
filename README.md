@@ -136,7 +136,7 @@ if len(cell) > 0:                                          # check to see if cel
 3) change lines of code
 
 ### How to run turtle race:
-1) To run two turtles at the same time open up 4 temrminal windows. In the two teminals which will runn the turtles change the current directory to the sorce file directory by:
+1) To run two turtles at the same time open up 4 terminal windows. In the two teminals which will run the turtles change the current directory to the source file directory by:
 
 ```bash
 cd catkin_ws/src/
