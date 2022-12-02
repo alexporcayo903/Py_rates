@@ -283,6 +283,7 @@ rosrun my_pkg ourgazebonode.py
 * If you have trouble installing pygame on linux this code can still function by giving the function points as shown in "turtlesim_without_pygame.py" in the "app_prog_project".
 * There will need to be two seperate pacakges one for the "app_prog_project" and one for "turtlesim_turtlerace".
 * How to run these packages are shown above and we also included videos of the final product which shows how to run these packages if the instructions are not clear enough.
+* The turtle_race code is currently set to two turtles due to the not knowing if your commputer can handle the ros timing. The end product will not be the exact same as the videos with the exception being the black path. If this runs smoothly you can follow the comments on the file and add the third turtle. 
 
 
 
