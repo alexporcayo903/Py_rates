@@ -18,9 +18,12 @@ Stared from the [baseline maze code]( https://github.com/tonypdavis/PythonMazeGe
 
 ### Turtlebot3
 
-1) follow this link to install turtlebot3 gazebo simulation packadge
 
-https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
+
+ros stuff
+
+
+gazebo stuff
 
 
 ## How To Use
@@ -54,9 +57,6 @@ catkin_make
       turtlesim_maze_node.py
       
       ourgazebonode.py
-      
-      turtlesim_maze_node_turtlerace.py
-      
       
 
 
@@ -112,7 +112,26 @@ with open('maze_saved.txt', 'w+') as f:
 
         f.write('%s\n' %items)   
 ```
-2) open that text file 
+2) To use the saved maze, you'll need to do the following:
+Import the file
+```python
+with open('maze3.txt') as f: # import a maze, list of direction of have pygame shape out the maze 
+    CELL = f.read().splitlines()
+
+```
+Set `cell_chosen` equal to `CELL[n]` in the `carve_out_maze` function  
+
+```python
+n=0
+if len(cell) > 0:                                          # check to see if cell list is empty
+           
+            #cell_chosen = (random.choice(cell))           # comment out or delete
+            
+            cell_chosen = CELL[n]                          # select seeded cell
+          
+            n=n+1                 
+            #CELL_ORDER.append(cell_chosen)                 # comment out or delete, not saving directions of seeded maze
+```
 
 3) change lines of code
 
@@ -126,8 +145,6 @@ with open('maze_saved.txt', 'w+') as f:
 4) In the third terminal start the first turtle by:
 
 5) In the last terminal start the second turtle by:
-
-
 
 Be careful to note the names of the turtles. These names need to be exatly set to run the two turtles at the same time. This works by using a roswait command expecting the exact name specified in the code for the second turtle(or third). This code is designed to run 2-3 turtles at once using given points from the maze generator. These points are hard set in the file due to ros1 timming constraints and our limitations using a virtual machine. 
 
@@ -193,9 +210,11 @@ gazebo src/map2gazebo/worlds/map.sdf
 
 
 ### How to use gazebo and turtlebot3:
+1) follow this link to install turtlebot3 gazebo simulation packadge
 
+https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 
-1) Enter the following command in the bash terminal to run the gazebo
+2) Enter the following command in the bash terminal to run the gazebo
 
 ```bash
 export TURTLEBOT3_MODEL=burger
