@@ -86,28 +86,6 @@ rosrun my_pkg turtlesim_maze_node.py
 There are two seed file maze1.txt and maze2.txt in the folder " app_prog_project ". To run 
 different maze go inside turtlesim_maze_node.py and edit line 248 " XX=maze_fixed.mazf('maze2.txt') "
 
-## Multithreading
-
-we used multi-threading to race the turtle. To do that 
-
-```bash
-roscore
-```
-
-second tab : open the new tab in the terminal, run turtlesim node
-
-```bash
-rosrun turtlesim turtlesim_node
-```
-
-third tab:  open the new tab in the terminal, run turtlesim maze node
-
-
-```bash
-cd ~/catkin_ws/src/my_pkg/
-rosrun my_pkg turtlesim_maze_node_turtlerace.py
-```
-
 
 ### How to seed the maze:
 
@@ -148,6 +126,27 @@ with open('maze_saved.txt', 'w+') as f:
 4) In the third terminal start the first turtle by:
 
 5) In the last terminal start the second turtle by:
+
+
+we used multi-threading to race the turtle. To do that 
+
+```bash
+roscore
+```
+
+second tab : open the new tab in the terminal, run turtlesim node
+
+```bash
+rosrun turtlesim turtlesim_node
+```
+
+third tab:  open the new tab in the terminal, run turtlesim maze node
+
+
+```bash
+cd ~/catkin_ws/src/my_pkg/
+rosrun my_pkg turtlesim_maze_node_turtlerace.py
+```
 
 Be careful to note the names of the turtles. These names need to be exatly set to run the two turtles at the same time. This works by using a roswait command expecting the exact name specified in the code for the second turtle(or third). This code is designed to run 2-3 turtles at once using given points from the maze generator. These points are hard set in the file due to ros1 timming constraints and our limitations using a virtual machine. 
 
