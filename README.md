@@ -127,6 +127,8 @@ with open('maze_saved.txt', 'w+') as f:
 
 5) In the last terminal start the second turtle by:
 
+Be careful to note the names of the turtles. These names need to be exatly set to run the two turtles at the same time. This works by using a roswait command expecting the exact name specified in the code for the second turtle. This code is designed to run 2-3 turtles at once using given points from the maze generator. These points are hard set in the file due to our limitations using a virtual machine. 
+
 ### How to use maze to gazebo:
 
 ### Installation ( This was copied from the github link: https://github.com/Adlink-ROS/map2gazebo)
