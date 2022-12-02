@@ -116,6 +116,16 @@ with open('maze_saved.txt', 'w+') as f:
 
 3) change lines of code
 
+### How to run synchronous maze:
+1) To run two turtles at the same time open up 4 temrminal windows. In these teminals change the current directory to the sorce file directory by:
+
+2) In the first window start the roscore by:
+
+3) In the second terminal start the turtlesim node by:
+
+4) In the third terminal start the first turtle by:
+
+5) In the last terminal start the second turtle by:
 
 ### How to use maze to gazebo:
 
