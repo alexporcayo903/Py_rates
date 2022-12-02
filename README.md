@@ -138,6 +138,10 @@ if len(cell) > 0:                                          # check to see if cel
 ### How to run turtle race:
 1) To run two turtles at the same time open up 4 temrminal windows. In these teminals change the current directory to the sorce file directory by:
 
+
+```bash
+hello world
+```
 2) In the first window start the roscore by:
 
 3) In the second terminal start the turtlesim node by:
