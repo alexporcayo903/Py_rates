@@ -9,7 +9,7 @@
 ### Full 3-Turtle Race Video
 
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/b0f778Xq1dI/0.jpg)](http://www.youtube.com/watch?v=b0f778Xq1dI)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/rWpXgQyR_6s/0.jpg)](http://www.youtube.com/watch?v=rWpXgQyR_6s)
 
 
 ### How to run Turtle Race Video
