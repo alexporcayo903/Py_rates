@@ -13,3 +13,6 @@
 <img src = "/Images/Maze_2_Turtlesim.png" width ="230" /> <img src = "/Images/Maze_2_Path.png" width ="245" />
 
 
+# Maze 3
+
+# Synchronous Maze
