@@ -1,8 +1,8 @@
 # Maze 1
-<img src = "/Images/Maze_1_Pygame.png" width ="230" /> <img src = "/Images/Maze_1_Plot.png" width ="250" />
+<img src = "/Images/Maze_1_Pygame.png" width ="230" /> <img src = "/Images/Maze_1_Plot.png" width ="252" />
 
 
-<img src = "/Images/Maze_1_Turtlesim.png" width ="230" /> <img src = "/Images/Maze_1_Path.png" width ="250" />
+<img src = "/Images/Maze_1_Turtlesim.png" width ="240" /> <img src = "/Images/Maze_1_Path.png" width ="240" />
 
 
 
