@@ -186,7 +186,7 @@ git clone https://github.com/Adlink-ROS/map2gazebo.git -b foxy-devel
 ```bash
 cd ~/map2gz_ros2_ws
 ```
-after that download our maze2.png and maze2.yaml from our github and put it in the folder map2gz_ros2_ws
+after that download our maze2.png and maze2.yaml from our github folder app_prog_project and put it in the folder map2gz_ros2_ws
 
 
 * Convert the map to STL model
