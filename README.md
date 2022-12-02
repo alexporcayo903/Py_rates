@@ -45,19 +45,12 @@ catkin_make
 
 4. From the downloaded " app_prog_project" folder copy  the contents listed below and put it inside the my_pkg folder as individual files
 
-
-      maze1.txt
+      * maze1.txt
+      * maze2.txt
+      * maze_fixed.py
+      * turtlesim_maze_node.py
+      * ourgazebonode.py
       
-      maze2.txt
-      
-      maze_fixed.py
-      
-      turtlesim_maze_node.py
-      
-      ourgazebonode.py
-      
-
-
 5. Run the following command in the bash terminal to run the code 
 
 first open new  tab of the terminal, run the roscore
