@@ -156,13 +156,13 @@ rosrun turtlesim turtlesim_node
 4) In the first terminal you changed the directory in start the first turtle by:
 
 ```bash
-rosrun my_package_name my_node.py turtle1
+rosrun my_pkg turtle_race.py turtle1
 ```
 
 5) In the last terminal start the second turtle by:
 
 ```bash
-rosrun my_package_name my_node.py turtle2
+rosrun my_pkg turtle_race.py turtle2
 ```
 
 After you start the second turtle there will be a two second delay from rospy.sleep(2) and then the two turtles start simultaneously. Be careful to note the names of the turtles after your package and after your file name. These names need to be exatly set to run the two turtles at the same time (currently 'turtle1' and 'turtle2'). If you would like to change the turtle names you can go to everywhere that each turtle is named and change it to the desired name in those case statments. The names of your package and node can be whatever you choose. This works by using a roswait command and waiting for the final turtle to be created. The command expects the exact name of the final turtle specified in the code to be inputed as the turtle name(in this case 'turtle2'). This code is designed to run 2-3 turtles at once using given points from the maze generator. These points are hard set in the file due to ros1 timming constraints and our limitations using a virtual machine. 
