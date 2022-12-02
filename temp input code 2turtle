@@ -322,7 +322,9 @@ if __name__ == '__main__':
            rospy.wait_for_service(turtle_pen)
            call_set_pen_service(255,255,255,3,0,turtle_pen)
       
-       rospy.sleep(2)
+       rospy.sleep(2) ## this allows the ros1 timming constraints to catch up and execute appropriately
+       ## without this sleep a second or third turtle will not work
+       ## if the inital test does not work for two turtles increase the 2 -> 5
  
        t0=rospy.Time.now().to_sec()
       
