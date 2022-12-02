@@ -43,7 +43,7 @@ cd ..
 catkin_make
 ```
 
-4. From the downloaded " app_prog_project" folder copy  the contents listed below and put it inside the my_pkg folder
+4. From the downloaded " app_prog_project" folder copy  the contents listed below and put it inside the my_pkg folder as individual files
 
 
       maze1.txt
