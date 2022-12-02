@@ -135,7 +135,7 @@ if len(cell) > 0:                                          # check to see if cel
 
 3) change lines of code
 
-### How to run synchronous maze:
+### How to run turtle race:
 1) To run two turtles at the same time open up 4 temrminal windows. In these teminals change the current directory to the sorce file directory by:
 
 2) In the first window start the roscore by:
