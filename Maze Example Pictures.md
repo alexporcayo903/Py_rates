@@ -7,7 +7,7 @@
 
 
 # Maze 2
-<img src = "/Images/Maze_2_Pygame.png" width ="231" /> <img src = "/Images/Maze_2_Plot.png" width ="242" />
+<img src = "/Images/Maze_2_Pygame.png" width ="230" /> <img src = "/Images/Maze_2_Plot.png" width ="242" />
 
 
 <img src = "/Images/Maze_2_Turtlesim.png" width ="230" /> <img src = "/Images/Maze_2_Path.png" width ="245" />
