@@ -132,7 +132,7 @@ def carve_out_maze(x,y):
             
             cell_chosen = CELL[n]
           
-            n=n+1                   # select one of the cell randomly
+            n=n+1                  
             #CELL_ORDER.append(cell_chosen)
             
             if cell_chosen == 'right':                             # if this cell has been chosen
@@ -213,6 +213,8 @@ while running:
         # check for closing the window
         if event.type == pygame.QUIT:
             running = False
+            pygame.display.quit()
+
 
 
 
