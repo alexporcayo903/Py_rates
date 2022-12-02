@@ -21,7 +21,7 @@ Stared from the [baseline maze code]( https://github.com/tonypdavis/PythonMazeGe
 
 1) follow this link to install turtlebot3 gazebo simulation packadge
 
-https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
+     https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 
 
 ## How To Use
