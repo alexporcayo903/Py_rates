@@ -19,7 +19,7 @@ Stared from the [baseline maze code]( https://github.com/tonypdavis/PythonMazeGe
 ### Turtlebot3
 
 
-1) follow this link to install turtlebot3 gazebo simulation packadge
+1) Follow this link to install turtlebot3 gazebo simulation packadge
 
      https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 
@@ -54,7 +54,7 @@ catkin_make
       
 5. Run the following command in the bash terminal to run the code 
 
-first open new  tab of the terminal, run the roscore
+First open new  tab of the terminal, run the roscore
 
 
 ```bash
