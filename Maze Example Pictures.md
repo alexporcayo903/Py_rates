@@ -21,6 +21,8 @@
 
 
 # Synchronous Maze
+<img src = "/Images/Turtlesim_3_Turtles.png" width ="500" />
+
 The final results for this maze at the maximum accuracy resluted in:
 
 
