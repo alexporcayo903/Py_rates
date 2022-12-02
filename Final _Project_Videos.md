@@ -3,7 +3,8 @@
 
 ### Single Turtle with pygame
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/-D9zRp7cfMI/0.jpg)](http://www.youtube.com/watch?v=-D9zRp7cfMI)
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/-D9zRp7cfMI/0.jpg)](http://www.youtube.com/watch?v=-D9zRp7cfMI)
 
 
 
