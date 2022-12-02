@@ -5,7 +5,7 @@
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/-D9zRp7cfMI/0.jpg)](http://www.youtube.com/watch?v=-D9zRp7cfMI)
 
-### Full 3-person Turtle Race Video
+### Full 3-Turtle Race Video
 
 ### How to run Turtle Race Video
 For demonstration and recording puposes we shortened the length of the paths. To see the high accuracy final product look in the maze examples folder.
