@@ -61,13 +61,13 @@ First open new  tab of the terminal, run the roscore
 roscore
 ```
 
-second tab : open the new tab in the terminal, run turtlesim node
+Second tab : open the new tab in the terminal, run turtlesim node
 
 ```bash
 rosrun turtlesim turtlesim_node
 ```
 
-third tab:  open the new tab in the terminal, run turtlesim maze node
+Third tab:  open the new tab in the terminal, run turtlesim maze node
 
 
 ```bash
@@ -163,7 +163,7 @@ def solution_cell(x,y):
     pygame.display.update()   
 ```
 
-3) You would need to use a snipping tool to get the maze image and converted into a PNG. Here is an example: 
+3) You will need to use a snipping tool to get the maze image and converted into a PNG. Here is an example: 
 
 ![alt text](/Images/Maze_PNG_Example.png)
 
@@ -272,7 +272,7 @@ export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
 ```
 
-3) ope a new tab from the terminal 
+3) open a new tab from the terminal 
 
 ```bash
 cd ~/catkin_ws/src/my_pkg/
