@@ -133,7 +133,7 @@ if len(cell) > 0:                                          # check to see if cel
             #CELL_ORDER.append(cell_chosen)                 # comment out or delete, not saving directions of seeded maze
 ```
 
-3) change lines of code
+Then from there you should see the seeded maze.
 
 ### How to run turtle race:
 1) To run two turtles at the same time open up 4 terminal windows. In the two teminals which will run the turtles change the current directory to the source file directory by:
