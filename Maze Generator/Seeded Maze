@@ -177,7 +177,6 @@ build_grid(40, 0, 20)             # 1st argument = x value, 2nd argument = y val
 carve_out_maze(x,y)               # call build the maze  function
 plot_route_back(400, 400)         # call the plot solution function
 
-#NOTE: If you can not exit out of the maze, comment out everything below of pygame loop. 
 ####### pygame loop #######
 running = True
 while running:
