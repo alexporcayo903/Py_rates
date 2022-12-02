@@ -7,7 +7,7 @@ To have a simulated robot to solve a maze and convert the solution into a path t
 ### Ros1, Pygame, Turtlebot3, PythonMazeGenerator, Ubuntu 20.04
 
 
-In the "app_prog_project" folder the file BLANK is dependent upon 
+In the "app_prog_project" folder the file "turtle_maze_node.py" is dependent upon the file "mazed_fixed.py".
 ## Installation
 ### Virtualbox
 One of the virtual machines we used to run Ubuntu 20.04 was virtual box. This virtual machine can be downloaded by following the instructions in https://data-flair.training/blogs/install-virtualbox/.
