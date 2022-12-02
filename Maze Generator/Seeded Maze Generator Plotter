@@ -23,8 +23,8 @@ import matplotlib.pyplot as plt
 A=[]
 B=[]
 
-#with open('maze3.txt') as f: # import a maze, list of direction of have pygame shape out the maze 
-#    CELL = f.read().splitlines()
+with open('maze1.txt') as f: # import a maze, list of direction of have pygame shape out the maze 
+    CELL = f.read().splitlines()
 
 # set up pygame window
 WIDTH = 500
@@ -128,9 +128,9 @@ def carve_out_maze(x,y):
             cell.append("up")
         if len(cell) > 0:                                          # check to see if cell list is empty
            
-            cell_chosen = (random.choice(cell))                    # select one of the cell randomly
+            #cell_chosen = (random.choice(cell))                    # select one of the cell randomly
             
-            #cell_chosen = CELL[n]
+            cell_chosen = CELL[n]
           
             n=n+1                   # select one of the cell randomly
             #CELL_ORDER.append(cell_chosen)
