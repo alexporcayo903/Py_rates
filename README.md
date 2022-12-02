@@ -5,9 +5,6 @@ To have a simulated robot to solve a maze and convert the solution into a path t
 
 ## Dependences
 ### Ros1, Pygame, Turtlebot3, PythonMazeGenerator, Ubuntu 20.04
-
-
-In the "app_prog_project" folder the file "turtle_maze_node.py" is dependent upon the file "mazed_fixed.py".
 ## Installation
 ### Virtualbox
 One of the virtual machines we used to run Ubuntu 20.04 was virtual box. This virtual machine can be downloaded by following the instructions in https://data-flair.training/blogs/install-virtualbox/.
@@ -60,8 +57,6 @@ catkin_make
       turtlesim_maze_node.py
       
       ourgazebonode.py
-      
-      turtle_race.py
       
 
 
@@ -140,6 +135,48 @@ if len(cell) > 0:                                          # check to see if cel
 
 Then from there you should see the seeded maze.
 
+### How to obtain Maze PNG for Map2Gazebo:
+The maze must have black borders and white paths. The image must have black border with two open slots, one for entry and one for exit. 
+
+1)  Using the seeded Maze Generator, make sure the color in all `pygame.draw.line` is BLACK, exept the last two in the if statements. Those two are the open slots
+```python
+def build_grid(x, y, w):
+    for i in range(1,21):
+        x = 20                                                          
+        y = y + 20                                                       
+        for j in range(1, 21):
+            pygame.draw.line(screen, BLACK, [x, y], [x + w, y])          
+            pygame.draw.line(screen, BLACK, [x + w, y], [x + w, y + w])   
+            pygame.draw.line(screen, BLACK, [x + w, y + w], [x, y + w])   
+            pygame.draw.line(screen, BLACK, [x, y + w], [x, y])          
+            grid.append((x,y))                                            
+            if i==1 and j==1:
+                  pygame.draw.line(screen, WHITE, [x, y], [x + w, y])
+            if i==20 and j==20:
+                  pygame.draw.line(screen, WHITE, [x + w, y + w], [x, y + w]) 
+                
+            x = x + 20                                                   
+```
+2) Have the color in all `pygame.draw.rect` codelines are set to WHITE from function `push_up` to `solution_cell`
+
+```python
+def push_up(x, y):
+    pygame.draw.rect(screen, WHITE, (x + 1, y - w + 1, 19, 39), 0)        
+    pygame.display.update()
+    
+    ...
+    
+def solution_cell(x,y):
+    a=pygame.draw.rect(screen, WHITE, (x+8, y+8, 5, 5), 0)           
+    pygame.display.update()   
+```
+
+3) You would need to use a snipping tool to get the maze image and converted into a PNG. Here is an example: 
+
+![alt text](/Images/Maze_PNG_Example.png)
+
+
+
 ### How to run turtle race:
 1) To run two turtles at the same time open up 4 terminal windows. In the two teminals which will run the turtles change the current directory to the source file directory by:
 
@@ -161,16 +198,16 @@ rosrun turtlesim turtlesim_node
 4) In the first terminal you changed the directory in start the first turtle by:
 
 ```bash
-rosrun my_pkg turtle_race.py turtle1
+rosrun my_package_name my_node.py turtle1
 ```
 
 5) In the last terminal start the second turtle by:
 
 ```bash
-rosrun my_pkg turtle_race.py turtle2
+rosrun my_package_name my_node.py turtle2
 ```
 
-After you start the second turtle there will be a two second delay from rospy.sleep(2) and then the two turtles start simultaneously. Be careful to note the names of the turtles after your package and after your file name. These names need to be exatly set to run the two turtles at the same time (currently 'turtle1' and 'turtle2'). If you would like to change the turtle names you can go to everywhere that each turtle is named and change it to the desired name in those case statments. The names of your package and node can be whatever you choose. This works by using a roswait command and waiting for the final turtle to be created. The command expects the exact name of the final turtle specified in the code to be inputed as the turtle name(in this case 'turtle2'). This code is designed to run 2-3 turtles at once using given points from the maze generator. These points are hard set in the file due to ros1 timming constraints and our limitations using a virtual machine. 
+After you start the second turtle there will be a two second delay from rospy.sleep(2) and then the two turtles start simultaneously. Be careful to note the names of the turtles. These names need to be exatly set to run the two turtles at the same time (currently 'turtle1' and 'turtle2'). If you would like to change the turtle names you can go to everywhere that each turtle is named and change it to the desired name in those case statments. The names of your package and node can be whatever you choose. This works by using a roswait command and waiting for the final turtle to be created. The command expects the exact name of the final turtle specified in the code to be inputed as the turtle name(in this case 'turtle2'). This code is designed to run 2-3 turtles at once using given points from the maze generator. These points are hard set in the file due to ros1 timming constraints and our limitations using a virtual machine. 
 
 ### How to use map to gazebo:
 
