@@ -19,11 +19,7 @@ Stared from the [baseline maze code]( https://github.com/tonypdavis/PythonMazeGe
 ### Turtlebot3
 
 
-1) Follow this link to install turtlebot3 gazebo simulation packadge
-
-     https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
-
-
+1) Follow this link to install turtlebot3 gazebo simulation packadge: https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
 ## How To Use
 
 ### How to set up a ros packadge and run our node (After Installation): 
