@@ -16,3 +16,7 @@
 # Maze 3
 
 # Synchronous Maze
+The final results for this maze at the maximum accuracy resluted in:
+          Maze1: distance traveled = 67.5 meters | time elapsed = 451.51 seconds
+          Maze2: distance traveled = 67.5 meters | time elapsed = 443.56 seconds
+          Maze3: distance traveled = 44.5 meters | time elapsed = 278.63 seconds
